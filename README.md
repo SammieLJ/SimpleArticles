@@ -13,7 +13,7 @@ Then Update method was still "broken". It didn't update. Double checked on Mediu
 Then after few googling result, I have found out, that author Sherlynn Tan actually copied Blog example code from official ROR page and modified it a little bit.
 https://guides.rubyonrails.org/getting_started.html
 
-Now, I finally managed to fix my Update method and Bootstrap works.
+Now, I finally managed to fix my Update method and added Bootstrap into works.
 
 ## Prerequisites
 
