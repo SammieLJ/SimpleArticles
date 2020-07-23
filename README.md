@@ -58,6 +58,7 @@ Fix entries:
 username: root
 password: <your-defined-password>
 
+***PS:*** This last step is not defined or mentioned anywhere on internet. I had to figure it out by my self. For a second, I thought to abandon MySQL usage. :)
 You should check, if you can login to mysql:
 Cmd: ```mysql -u root -p```
 
@@ -66,8 +67,6 @@ MySQL cmd:
 ```create database SimpleArticles_development;```
 Check if new db is listed: ```show databases;```
 Then quit MySQL: ```quit```
-
-***PS:*** This last step is not defined or mentioned anywhere on internet. I had to figure it out by my self. For a second, I thought to abandon MySQL usage. :)
 
 4. DB Migration:
 
