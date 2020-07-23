@@ -27,19 +27,20 @@ On your system you should have:
 ## Running application
 
 These are simple steps, copy from github, configure and run:
-------------------------------------------------------------
-1. Go to directory, where you store various source codes or simply go to your Documents folder. Using cmd/terminal/git bash(or git cmd)
+
+**1. Clone repository**
+Go to directory, where you store various source codes or simply go to your Documents folder. Using cmd/terminal/git bash(or git cmd)
 Run command: git clone https://github.com/SammieLJ/SimpleArticles.git
 This will create "SimpleArticles" folder. You can define folder name. Just add at the end of command your defined folder.
 Then just enter folder: ```$ cd SimpleArticles```
 
-2. Set correct Ruby interpreter in "Gemfile" (in root of SimpleArticles folder).
+**2. Set correct Ruby interpreter in "Gemfile"** (in root of SimpleArticles folder).
 Get version: ```$ ruby -v``` in cmd/terminal
 Open and edit Gemfile: ```$ sudoedit Gemfile``` or ```$ nano Gemfile``` or open Visual Studio Code with command ```$ . code```
 Find "ruby" entry and fix version accordingly. I have used '2.7.0', newer is '2.7.1'
 Run command: ```$ bundle install```
 
-3. Set database
+**3. Set database**
 Originally application is using SQLite3. You can change it to MySQL.
 
 For SQLite3 usage, you can skip this point.
@@ -66,7 +67,7 @@ MySQL cmd:
 Check if new db is listed: ```show databases;```
 Then quit MySQL: ```quit```
 
-This last step is not defined or mentioned anywhere on internet. I had to figure it out by my self. For a second, I thought to abandon MySQL usage. :)
+***PS:*** This last step is not defined or mentioned anywhere on internet. I had to figure it out by my self. For a second, I thought to abandon MySQL usage. :)
 
 4. DB Migration:
 
